@@ -1,5 +1,3 @@
-import './codeburrito.css';
-
 function CodeBurrito() {
   return (
     <div>
@@ -8,3 +6,5 @@ function CodeBurrito() {
     </div>
   );
 }
+
+export default CodeBurrito;

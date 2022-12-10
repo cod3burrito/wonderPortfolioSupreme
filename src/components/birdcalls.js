@@ -1,5 +1,3 @@
-import './birdcalls.css';
-
 function BirdCalls() {
   return (
     <div>
@@ -17,3 +15,5 @@ function BirdCalls() {
     </div>
   );
 }
+
+export default BirdCalls;

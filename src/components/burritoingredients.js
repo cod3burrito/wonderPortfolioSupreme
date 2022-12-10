@@ -1,6 +1,4 @@
-import './burritoingredients.css';
-
-function burritoIngredients() {
+function BurritoIngredients() {
   return (
     <div className='portfolio'>
       <div class='masterScrolls'>
@@ -21,3 +19,5 @@ function burritoIngredients() {
     </div>
   );
 }
+
+export default BurritoIngredients;
