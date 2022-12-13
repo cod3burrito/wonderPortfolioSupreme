@@ -1,19 +1,17 @@
 import React from 'react';
 import './App.css';
 import About from './components/Codeburrito.js';
-import { Routes, Route } from "react-router-dom";
-
 import Projects from './components/Burritoingredients.js';
 import BirdCalls from './components/Birdcalls.js';
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      {/* <About />
-      <Projects />
-      <BirdCalls /> */}
       <Routes>
         <Route path="/" index element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/birdcalls" element={<BirdCalls />} />
       </Routes>
     </div>
   );

@@ -5,6 +5,18 @@ html {
     background-position: 0 0, 25px 25px, 50px 50px, 75px 75px;
 };
 
+body {
+  background: #57E2E5;
+  transparency: 0.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Barlow', sans-serif;
+}
+
+p {
+  font-family: 'Century Gothic', sans-serif;
+}
 
 /* Colors: 
  Davys Grey #50514F
