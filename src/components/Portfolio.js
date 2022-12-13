@@ -1,20 +1,18 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import './App.css';
-import Portfolio from "./components/codeburrito.js";
-import BirdCalls from "./components/birdcalls.js";
-import About from "./components/codeburrito.js";
+import { BrowserRouter as Routes, Route } from "react-router-dom";
+import '../App.css';
+import About from "./Codeburrito.js";
+// import Contact from "./Birdcalls.js";
+import Projects from "./Burritoingredients.js";
+import BirdCalls from "./Birdcalls.js";
 
-export default function Portfolio() {
-  return (
-    <Router>
-      <div>
-        <Switch>
-          <Route exact path="/" component={Portfolio} />
-          <Route exact path="/birdcalls" component={BirdCalls} />
-          <Route exact path="/about" component={About} />
-        </Switch>
-      </div>
-    </Router>
+function Portfolio() {
+  return (<p>hello world</p>
+    // <Routes>
+    //       <Route exact path="/Codeburrito" component={About} />
+    //       <Route exact path="/Birdcalls" component={BirdCalls} />
+    //       <Route exact path="/Burritoingredients" component={Projects} />
+    // </Routes>
   );
 }
+export default Portfolio;

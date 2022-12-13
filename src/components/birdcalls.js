@@ -2,7 +2,7 @@ function BirdCalls() {
   return (
     <div>
       <h1>Contact and Resume</h1>
-      <p>You can view my resume by clicking <a href="../../resume/RobinAllmanWinter22.pdf" target="_blank" rel="noopener noreferrer">here</a>.
+      <p>You can view my resume by clicking <a href="../../files/RobinAllman-Winter22.pdf" target="_blank" rel="noopener noreferrer">here</a>.
       </p>
         <p>Reach me here:
         <ul>
